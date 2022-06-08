@@ -1,0 +1,39 @@
+.Nav {
+    border-radius: 15px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+button {
+    /* margin-left: 2%; */
+    height: 5vh;
+    width: 18vw;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    background-color:mintcream;
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button:after {
+    /* content: '🌸'; */
+    opacity: 0;  
+    transition: 0.5s;
+  } 
+
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    /* right: 30px; */
+  }
+
+.Nav__home-btn {
+    /* margin: 1%; */
+}

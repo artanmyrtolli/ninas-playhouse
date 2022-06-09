@@ -1,17 +1,37 @@
-.App {
-  text-align: center;
-}
-
 .App-header {
-  background-color: #c0d5ff;
-  height: 12vh;
+  height: 16vh;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(40px + 2vmin);
   color: black;
   font-family: 'Bonbon', cursive;
+}
+
+.home__main {
+  margin-top: 5vh;
+  margin-left: 10vh;
+  /* background-image: url(../Images/bg_toys.jpg); */
+  background-size: cover;
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Mystery Quest', cursive;
+  font-size: 40px;
+}
+
+.home__welcome{
+  background-color: #c0d5ff;
+  border-radius: 15px;
+}
+
+.home__spaceship {
+  padding: 10%;
+  width: 10vw;
+
 }
 
 

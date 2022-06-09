@@ -7,13 +7,13 @@ const Nav = () => {
         <nav className="Nav">
             <NavLink to='/ninas-playhouse'>
                 <button className="Nav__home-btn">Home</button>
-            </NavLink><span>---</span>
+            </NavLink>
             <NavLink to="/about">
                 <button className="Nav__home-btn">About Us</button>
-            </NavLink><span>---</span>
+            </NavLink>
             <NavLink to="/browse">
                 <button className="Nav__home-btn">Browse</button>
-            </NavLink><span>---</span>
+            </NavLink>
             <NavLink to="/login">
                 <button className="Nav__home-btn">Login</button>
             </NavLink>

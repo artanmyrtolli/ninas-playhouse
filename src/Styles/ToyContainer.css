@@ -1,0 +1,7 @@
+.ToyContainer {
+    width: 90vw;
+    height: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

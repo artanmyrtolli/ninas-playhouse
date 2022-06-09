@@ -1,5 +1,6 @@
 import { Route } from 'react-router-dom';
-import '../Styles/App.css';
+import '../Styles/App.css' 
+import Login from './Login';
 import Nav from './Nav';
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
       <header className="App-header">Nina's PlayHouse</header>
       <Nav />
       <Route exact path={['/', '/ninas-playhouse']} >
-        <h1>home</h1>
+        <main className="home__main">
+          <h1 className='home__welcome'>Welcome</h1>
+        </main>
       </Route>
       <Route path="/about">
         <h1>about</h1>
@@ -17,11 +20,8 @@ function App() {
         <h1>browse</h1>
       </Route>
       <Route path="/login">
-        <h1>login</h1>
+        <Login />
       </Route>
-      <main className="App">
-
-      </main>
     </>
   );
 }

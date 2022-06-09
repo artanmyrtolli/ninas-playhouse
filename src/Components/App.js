@@ -21,7 +21,6 @@ function App() {
       </Route>
       <Route path="/browse">
         <ToyContainer />
-        <h1>browse</h1>
       </Route>
       <Route path="/login">
         <Login />

@@ -1,9 +1,12 @@
+import { useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import '../Styles/App.css' 
 import Login from './Login';
 import Nav from './Nav';
+import ToyContainer from './ToyContainer';
 
 function App() {
+
   return (
     <>
       <header className="App-header">Nina's PlayHouse</header>
@@ -17,7 +20,7 @@ function App() {
         <h1>about</h1>
       </Route>
       <Route path="/browse">
-        <h1>browse</h1>
+        <ToyContainer />
       </Route>
       <Route path="/login">
         <Login />
